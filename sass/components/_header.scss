@@ -104,12 +104,12 @@ header {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__contacts--icon {
+  &__contact {
     display: flex;
     align-items: center;
     margin: 15px;
   }
-  &__contacts--icon:last-child {
+  &__contact:last-child {
     margin-right: 0;
   }
 }

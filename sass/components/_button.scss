@@ -41,6 +41,7 @@
     height: auto;
     padding: 6px 22px;
     margin: 4px;
+    box-shadow: none;
     background-color: $button-gray;
     transition-property: color, background-color, box-shadow;
     transition-duration: 250ms;
