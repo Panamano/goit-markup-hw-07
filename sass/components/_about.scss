@@ -3,18 +3,18 @@
   flex-direction: column;
   align-items: center;
 
-  &__header {
-    text-align: center;
-    margin: 0 0 50px;
-    // font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    letter-spacing: 0.03em;
-  }
-  &__ul {
+  // &__header {
+  //   text-align: center;
+  //   margin: 0 0 50px;
+  //   // font-family: 'Roboto';
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 36px;
+  //   line-height: 42px;
+  //   text-align: center;
+  //   letter-spacing: 0.03em;
+  // }
+  &__list {
     width: 1600px;
     padding: 0px;
     margin-left: 215px;
@@ -23,12 +23,12 @@
     display: flex;
     align-items: center;
   }
-  &__img {
+  &__pic {
     position: relative;
     display: flex;
     margin: 0 15px 0 15px;
   }
-  &__div {
+  &__box {
     display: flex;
     align-items: center;
     justify-content: center;

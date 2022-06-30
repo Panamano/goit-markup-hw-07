@@ -7,7 +7,7 @@
   text-decoration: none;
   color: white;
 
-  &__flex {
+  &__content {
     display: flex;
     align-items: flex-start;
   }
@@ -16,7 +16,7 @@
     text-decoration: none;
     color: white;
   }
-  &__ul {
+  &__list {
     display: block;
   }
   &__logo {
@@ -74,12 +74,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__mail:hover {
-    color: $blue;
-  }
+  &__mail:hover,
   &__mail:focus {
     color: $blue;
   }
+  // &__mail:focus {
+  //   color: $blue;
+  // }
   &__phone {
     margin-bottom: 9px;
     width: 231px;
@@ -96,14 +97,15 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__phone:hover {
-    color: $blue;
-  }
+  &__phone:hover,
   &__phone:focus {
     color: $blue;
   }
+  // &__phone:focus {
+  //   color: $blue;
+  // }
 
-  &__join {
+  &__header {
     margin: 0 0 20px;
     display: flex;
     flex-direction: column;
@@ -117,52 +119,54 @@
     padding-top: 72px;
   }
 
-  &__icons {
+  &__social {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-left: 70px;
   }
-  &__iconslst {
+  &__icons {
     display: flex;
     justify-content: space-around;
     align-content: center;
   }
-  &__div {
-    display: flex;
-    padding-right: 10px;
-  }
-  &__iconssvg {
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    fill: white;
-    transition-property: background, color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  // &__div {
+  //   display: flex;
+  //   padding-right: 10px;
+  // }
+  // &__iconssvg {
+  //   height: 44px;
+  //   width: 44px;
+  //   border-radius: 50%;
+  //   background: rgba(255, 255, 255, 0.1);
+  //   fill: white;
+  //   transition-property: background, color;
+  //   transition-duration: 250ms;
+  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // }
 
-  &__iconssvg:hover {
-    background: $blue;
-    cursor: pointer;
-  }
-  &__iconssvg:focus {
-    color: $blue;
-  }
+  // &__iconssvg:hover {
+  //   background: $blue;
+  //   cursor: pointer;
+  // }
+  // &__iconssvg:focus {
+  //   color: $blue;
+  // }
   &__form {
     display: flex;
     align-items: center;
   }
-  &__newsletterlbl {
+  &__newsletter-label {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    text-transform: uppercase;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
     padding-top: 72px;
     padding-left: 68px;
   }
@@ -186,33 +190,33 @@
     letter-spacing: 0.03em;
   }
 
-  &__newsletterbtn {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 108px;
-    margin-left: 12px;
-    width: 200px;
-    height: 50px;
-    background: $blue;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border: 0;
-    border-radius: 4px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #ffffff;
-  }
-  &__newsletterbtn:hover {
-    cursor: pointer;
-  }
-  &__newsletterbtn > svg {
-    width: 24px;
-    height: 24px;
-    fill: #ffffff;
-  }
+  // &__newsletterbtn {
+  //   display: flex;
+  //   align-items: center;
+  //   justify-content: space-evenly;
+  //   margin-top: 108px;
+  //   margin-left: 12px;
+  //   width: 200px;
+  //   height: 50px;
+  //   background: $blue;
+  //   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  //   border: 0;
+  //   border-radius: 4px;
+  //   font-family: 'Roboto';
+  //   font-style: normal;
+  //   font-weight: 700;
+  //   font-size: 16px;
+  //   line-height: 30px;
+  //   text-align: center;
+  //   letter-spacing: 0.06em;
+  //   color: #ffffff;
+  // }
+  // &__newsletterbtn:hover {
+  //   cursor: pointer;
+  // }
+  // &__newsletterbtn > svg {
+  //   width: 24px;
+  //   height: 24px;
+  //   fill: #ffffff;
+  // }
 }

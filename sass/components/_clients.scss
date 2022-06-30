@@ -1,18 +1,18 @@
 .client {
-  &__ul {
+  &__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 0;
   }
-  &__header {
-    text-align: center;
-    margin: 0 0 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-  }
+  // &__header {
+  //   text-align: center;
+  //   margin: 0 0 50px;
+  //   font-weight: 700;
+  //   font-size: 36px;
+  //   line-height: 42px;
+  //   letter-spacing: 0.03em;
+  // }
   &__box {
     display: flex;
     align-items: center;
@@ -27,12 +27,13 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  &__box:hover {
-    fill: $blue;
-    border: 1px solid $blue;
-  }
+  &__box:hover,
   &__box:focus {
     fill: $blue;
     border: 1px solid $blue;
   }
+  // &__box:focus {
+  //   fill: $blue;
+  //   border: 1px solid $blue;
+  // }
 }

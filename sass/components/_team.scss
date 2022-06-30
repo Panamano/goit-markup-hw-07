@@ -11,15 +11,15 @@
     background-color: $button-gray;
     margin: 0 auto;
   }
-  &__header {
-    text-align: center;
-    margin: 0 0 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 42px;
-    letter-spacing: 0.03em;
-  }
-  &__ul {
+  // &__header {
+  //   text-align: center;
+  //   margin: 0 0 50px;
+  //   font-weight: 700;
+  //   font-size: 36px;
+  //   line-height: 42px;
+  //   letter-spacing: 0.03em;
+  // }
+  &__list {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,7 +43,7 @@
   &__figure:last-child {
     padding-right: 0px;
   }
-  &__figure--title {
+  &__figure-title {
     margin: 0;
     padding: 30px 24px 10px;
     font-family: 'Roboto';
@@ -57,7 +57,7 @@
     line-height: 16px;
     letter-spacing: 0.06em;
   }
-  &__figure--description {
+  &__figure-description {
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
@@ -69,37 +69,37 @@
     letter-spacing: 0.03em;
     padding: 0 24px 16px;
   }
-  &__icons {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: center;
-  }
-  &__icons--item {
-    padding-bottom: 30px;
-  }
-  &__icons--item:first-child {
-    padding-left: 32px;
-  }
-  &__icons--item:last-child {
-    padding-right: 32px;
-  }
-  &__icons--svg {
-    fill: $icon-gray;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    transition-property: fill, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  &__icons--svg:hover {
-    fill: white;
-    background: $blue;
-    cursor: pointer;
-  }
-  &__icons--svg:focus {
-    fill: white;
-    background: $blue;
-    cursor: pointer;
-  }
+  // &__icons {
+  //   display: flex;
+  //   justify-content: space-evenly;
+  //   align-content: center;
+  // }
+  // &__icons--item {
+  //   padding-bottom: 30px;
+  // }
+  // &__icons--item:first-child {
+  //   padding-left: 32px;
+  // }
+  // &__icons--item:last-child {
+  //   padding-right: 32px;
+  // }
+  // &__icons--svg {
+  //   fill: $icon-gray;
+  //   height: 44px;
+  //   width: 44px;
+  //   border-radius: 50%;
+  //   transition-property: fill, background-color;
+  //   transition-duration: 250ms;
+  //   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  // }
+  // &__icons--svg:hover {
+  //   fill: white;
+  //   background: $blue;
+  //   cursor: pointer;
+  // }
+  // &__icons--svg:focus {
+  //   fill: white;
+  //   background: $blue;
+  //   cursor: pointer;
+  // }
 }
